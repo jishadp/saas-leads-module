@@ -14,5 +14,6 @@
             "email": "jishadp369@gmail.com"
         }
     ],
-    "require": {}
+    "require": {},
+    "minimum-stability": "stable"
 }
