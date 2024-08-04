@@ -6,5 +6,5 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
-    'Jishad\\SaasLeadModule\\' => array($baseDir . '/src'),
+    'Jishadp\\SaasLeadModule\\' => array($baseDir . '/src'),
 );

@@ -9,12 +9,12 @@ class ComposerStaticInit70184ca2c17ba3fcc7df117212e12d41
     public static $prefixLengthsPsr4 = array (
         'J' => 
         array (
-            'Jishad\\SaasLeadModule\\' => 22,
+            'Jishadp\\SaasLeadModule\\' => 23,
         ),
     );
 
     public static $prefixDirsPsr4 = array (
-        'Jishad\\SaasLeadModule\\' => 
+        'Jishadp\\SaasLeadModule\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src',
         ),

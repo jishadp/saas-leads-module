@@ -13,7 +13,8 @@ return new class extends Migration
     {
         Schema::create('leads', function (Blueprint $table) {
             $table->id();
-            $table->string('name');
+            $table->string('first_name')->nullable();
+            $table->string('last_name')->nullable();
             $table->string('mobile',15);
             $table->string('email',100)->nullable();
             $table->timestamps();
