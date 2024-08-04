@@ -1,6 +1,5 @@
 <?php
 
-use App\Http\Middleware\User\SetDatabaseForLoggedinUser;
 use Illuminate\Support\Facades\Route;
 use Jishadp\SaasLeadModule\Controllers\LeadController;
 

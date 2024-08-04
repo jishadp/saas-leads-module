@@ -11,8 +11,7 @@ class SaasLeadModuleServiceProvider extends ServiceProvider
      */
     public function register(): void
     {
-
-
+        // $this->mergeMenusConfig();
     }
 
     /**
@@ -26,4 +25,6 @@ class SaasLeadModuleServiceProvider extends ServiceProvider
         $this->publishes([__DIR__.'/../models' => app_path('Models/Tenants')],'models');
         $this->publishes([__DIR__.'/../datatables' => app_path('DataTables/User')],'datatables');
     }
+
+
 }
