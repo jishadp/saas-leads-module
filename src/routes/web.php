@@ -1,7 +1,6 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use Jishadp\SaasLeadModule\Controllers\LeadController;
 
-Route::get('leads', function () {
-    return 'Hello from your package!';
-});
+Route::get('leads', [LeadController::class,'index']);

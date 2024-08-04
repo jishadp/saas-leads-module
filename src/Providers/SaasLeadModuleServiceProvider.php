@@ -21,5 +21,8 @@ class SaasLeadModuleServiceProvider extends ServiceProvider
     public function boot(): void
     {
         $this->loadRoutesFrom(__DIR__.'/../routes/web.php');
+        $this->loadViewsFrom(__DIR__.'/../resources/views', 'leadviews');
+        $this->publishesMigrations([__DIR__.'/../database/migrations' => database_path('migrations')]);
+
     }
 }
